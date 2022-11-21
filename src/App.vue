@@ -1,15 +1,15 @@
 <template>
 <div id="app">
-  <restaurant-row/>
+  <HomeScreen/>
 </div>
 </template>
 
 <script>
-import RestaurantRow from "./components/RestaurantRow.vue"
+import HomeScreen from "./page/homeScreen.vue"
 export default {
   name: 'App',
   components:  {
-    RestaurantRow,
+    HomeScreen,
   }
 }
 </script>
