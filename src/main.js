@@ -7,7 +7,7 @@ import RestaurantScreen from './page/RestaurantScreen.vue'
 
 const routes = [
     { path: '/', component: homeScreen },
-    { path: '/restaurant', component: RestaurantScreen },
+    { name: 'Restaurant', path: '/restaurant/:name', component: RestaurantScreen },
 ]
 
 const router = createRouter({
